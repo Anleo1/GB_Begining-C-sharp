@@ -6,10 +6,7 @@ Console.Write("Enter third number: ");
 int thirdNum = Convert.ToInt32(Console.ReadLine());
 
 int maximum = firstNum;
-if (maximum < secondNum) {
-    maximum = secondNum;
-    if (maximum < thirdNum) maximum =thirdNum;
-}
-else if (maximum < thirdNum) maximum =thirdNum;
+if (maximum < secondNum) maximum = secondNum;
+if (maximum < thirdNum) maximum =thirdNum;
 
 Console.WriteLine($"maximum = {maximum}");
