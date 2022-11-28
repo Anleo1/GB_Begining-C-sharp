@@ -7,6 +7,6 @@ int thirdNum = Convert.ToInt32(Console.ReadLine());
 
 int maximum = firstNum;
 if (maximum < secondNum) maximum = secondNum;
-if (maximum < thirdNum) maximum =thirdNum;
+if (maximum < thirdNum) maximum = thirdNum;
 
 Console.WriteLine($"maximum = {maximum}");
